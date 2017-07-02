@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['vital.ryabchinskiy@gmail.com']
 
   spec.description   = 'Easy way to define AR attributes that should be stored in lowercase'
-  spec.summary       = spec.description
+  spec.summary       = 'Provide functionality to force AR attributes to lowercase'
   spec.homepage      = 'https://github.com/vitalinfo/acts_as_downcasable_on'
   spec.license       = 'MIT'
 
@@ -37,5 +37,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rubocop', '~> 0.49'
   spec.add_development_dependency 'sqlite3', '~> 1.3'
 
-  spec.add_runtime_dependency 'activerecord', '>= 4.0.0'
+  spec.add_runtime_dependency 'activerecord', '>= 4.0.0', '<= 6.0'
 end
