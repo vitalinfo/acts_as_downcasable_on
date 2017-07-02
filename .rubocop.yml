@@ -29,6 +29,9 @@ Metrics/ModuleLength:
 Metrics/BlockLength:
   Exclude:
     - 'spec/**/*'
+    - '*.gemspec'
 Rails/SkipsModelValidations:
   Exclude:
     - 'spec/**/*'
+Rails/ApplicationRecord:
+  Enabled: false
