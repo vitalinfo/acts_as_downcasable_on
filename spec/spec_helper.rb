@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require 'bundler/setup'
 require 'acts_as_downcasable_on'
 
