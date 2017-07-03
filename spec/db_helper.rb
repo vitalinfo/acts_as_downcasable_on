@@ -7,9 +7,10 @@ ActiveRecord::Schema.define(version: 1) do
     t.string   :value_downcasable_1
     t.string   :value_downcasable_2
     t.string   :value
+    t.integer  :number
   end
 end
 
 class Test < ActiveRecord::Base
-  acts_as_downcasable_on :value_downcasable_1, :value_downcasable_2
+  acts_as_downcasable_on :value_downcasable_1, :value_downcasable_2, :number
 end

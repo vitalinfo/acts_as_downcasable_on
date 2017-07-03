@@ -10,6 +10,7 @@ RSpec.configure do |config|
 
   config.expect_with :rspec do |c|
     c.syntax = :expect
+    c.on_potential_false_positives = :nothing
   end
   config.warnings = true
   config.order = :random

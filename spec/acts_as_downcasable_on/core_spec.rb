@@ -19,4 +19,9 @@ RSpec.describe ActsAsDowncasableOn::Core do
       it_behaves_like 'test instance attributes'
     end
   end
+
+  it 'should not raise exception for non string attribute' do
+    test = Test.new(number: rand(1000))
+    expect { test.valid? }.not_to raise_error(NoMethodError)
+  end
 end
