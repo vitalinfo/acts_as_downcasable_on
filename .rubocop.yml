@@ -11,16 +11,8 @@ Documentation:
   Enabled: false
 Style/SignalException:
   Enabled: false
-Style/ClassAndModuleChildren:
-  Enabled: false
-Style/FrozenStringLiteralComment:
-  Enabled: false
 Style/FormatStringToken:
   EnforcedStyle: template
-PercentLiteralDelimiters:
-  PreferredDelimiters:
-    '%i': ()
-    '%w': ()
 Metrics/ClassLength:
   Max: 200
 Metrics/ModuleLength:

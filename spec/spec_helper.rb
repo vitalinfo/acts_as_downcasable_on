@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 require 'bundler/setup'
 require 'acts_as_downcasable_on'
 
-Dir[File.join(File.expand_path('../support', __FILE__), '**', '*.rb')].each { |f| require f }
+Dir[File.join(File.expand_path('support', __dir__), '**', '*.rb')].each { |f| require f }
 
 RSpec.configure do |config|
   config.example_status_persistence_file_path = '.rspec_status'

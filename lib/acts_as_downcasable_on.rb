@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'active_record'
 require 'acts_as_downcasable_on/version'
 require 'acts_as_downcasable_on/core'
